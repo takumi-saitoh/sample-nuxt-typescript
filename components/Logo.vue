@@ -77,3 +77,9 @@
   }
 }
 </style>
+
+<docs>
+```jsx
+<Logo></Logo>
+```
+</docs>

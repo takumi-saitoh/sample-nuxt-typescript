@@ -10,7 +10,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -34,7 +36,11 @@
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.1.0",
     "nodemon": "^1.18.9",
+    "postcss-apply": "^0.12.0",
     "prettier": "^1.16.4",
-    "vue-jest": "^3.0.3"
+    "ts-loader": "^6.0.4",
+    "vue-jest": "^3.0.3",
+    "vue-styleguidist": "^3.18.1",
+    "webpack": "^4.38.0"
   }
 }

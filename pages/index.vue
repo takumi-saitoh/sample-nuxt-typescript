@@ -9,7 +9,11 @@
         My transcendent Nuxt.js project
       </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green"
+        >
           Documentation
         </a>
         <a
@@ -20,16 +24,23 @@
           GitHub
         </a>
       </div>
+      <hoge-button type="success">
+        <template v-slot="title">
+          <div>asksksks</div>
+        </template>
+      </hoge-button>
     </div>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import HogeButton from '~/components/HogeButton.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    HogeButton
   }
 }
 </script>
